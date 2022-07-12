@@ -1,0 +1,160 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-07-12T05:31:04.101Z",
+    "end": "2022-07-12T05:31:16.058Z",
+    "duration": 11957,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 1,
+    "hasSkipped": true,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "02660447-03c7-4106-ab46-84758d16d1ec",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "95183543-1349-43f3-909f-3f0dc71339c5",
+        "title": "Abrir la URL",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "Abrir la URL \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "2651a85d-5059-4985-a7ee-5c92bee875fd",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "Abrir la URL \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 1307,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "644ec428-88b9-43b4-9417-6089d251d098",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "Abrir la URL \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "c3fd5d43-6a38-4eee-a0f6-f928f48dadeb",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "Abrir la URL \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 1,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "65856471-551c-4851-936c-7fb98cc34b9b",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "LogIN @LogIN",
+            "fullTitle": "Abrir la URL LogIN @LogIN",
+            "timedOut": false,
+            "duration": 10643,
+            "state": "failed",
+            "pass": false,
+            "fail": true,
+            "pending": false,
+            "code": "runSteps(child.steps)",
+            "err": {
+              "message": "Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.",
+              "estack": "Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.\n\nScenario Steps:\n\n- I.seeElement({\"xpath\":\"//*[@id=\\\"header_container\\\"]/div[2]/span\"}) at Object.AddProduct (src\\page-objects\\InicioSesion.js:79:15)\n- I.wait(2) at Object.AddProduct (src\\page-objects\\InicioSesion.js:78:15)\n- I.click({\"xpath\":\"//*[@class=\\\"btn btn_action btn_medium checkout_button\\\"]\"}) at Object.AddProduct (src\\page-objects\\InicioSesion.js:76:33)\n- I.click({\"xpath\":\"//*[@class=\\\"shopping_cart_link\\\"]\"}) at Object.AddProduct (src\\page-objects\\InicioSesion.js:73:30)\n- I.wait(1) at Object.AddProduct (src\\page-objects\\InicioSesion.js:72:11)\n- I.click({\"xpath\":\"//*[@id=\\\"add-to-cart-sauce-labs-backpack\\\"]\"}) at Object.AddProduct (src\\page-objects\\InicioSesion.js:71:30)\n- I.grabTextFrom(\"//*[contains(text(),\"Sauce Labs Backpack\")]\", \"Sauce Labs Backpack\") at Object.AddProduct (src\\page-objects\\InicioSesion.js:69:29)\n- I.wait(1) at Object.AddProduct (src\\page-objects\\InicioSesion.js:67:11)\n- I.click({\"xpath\":\"//*[@class=\\\"submit-button btn_action\\\"]\"}) at Object.SignIN (src\\page-objects\\InicioSesion.js:49:24)\n- I.appendField({\"xpath\":\"//*[@class=\\\"login-box\\\"]//form//div[2]\"}, \"secret_sauce\") at Object.SignIN (src\\page-objects\\InicioSesion.js:48:24)\n- I.click({\"xpath\":\"//*[@class=\\\"login-box\\\"]//form//div[2]\"}) at Object.SignIN (src\\page-objects\\InicioSesion.js:47:24)\n- I.appendField({\"xpath\":\"//*[@class=\\\"login-box\\\"]//form//div[1]\"}, \"standard_user\") at Object.SignIN (src\\page-objects\\InicioSesion.js:46:24)\n- I.click({\"xpath\":\"//*[@class=\\\"login-box\\\"]//form//div[1]\"}) at Object.SignIN (src\\page-objects\\InicioSesion.js:45:24)\n- I.amOnPage(\"https://www.saucedemo.com\") at Object.SignIN (src\\page-objects\\InicioSesion.js:44:24)\n\n"
+            },
+            "isRoot": false,
+            "uuid": "598bcb28-bb08-42f6-8e5b-11ee10cc66f7",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Validar Login @ValidacionLogIn",
+            "fullTitle": "Abrir la URL Validar Login @ValidacionLogIn",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(child.steps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "22da35d0-6710-4783-9b00-10932fea1701",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [],
+        "failures": [
+          "598bcb28-bb08-42f6-8e5b-11ee10cc66f7"
+        ],
+        "pending": [],
+        "skipped": [
+          "22da35d0-6710-4783-9b00-10932fea1701"
+        ],
+        "duration": null,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 0
+  },
+  "copyrightYear": 2022
+}

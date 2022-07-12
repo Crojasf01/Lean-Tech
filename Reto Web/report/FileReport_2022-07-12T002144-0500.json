@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-07-12T05:21:19.552Z",
+    "end": "2022-07-12T05:21:44.131Z",
+    "duration": 24579,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 1,
+    "hasSkipped": true,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "28217360-1188-4da5-8c96-3f7228ff8d41",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "ebb9a240-025c-4593-98fb-ffce062b50e8",
+        "title": "Abrir la URL",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [
+          {
+            "title": "\"before all\" hook: codeceptjs.beforeSuite",
+            "fullTitle": "Abrir la URL \"before all\" hook: codeceptjs.beforeSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteSetup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "c1fa5192-edf3-4043-9316-ca4dbfd44436",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"before each\" hook: codeceptjs.before",
+            "fullTitle": "Abrir la URL \"before each\" hook: codeceptjs.before",
+            "timedOut": false,
+            "duration": 1302,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.setup(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "44bc55ed-fc9c-4bb1-af62-f8a5051e4adc",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "afterHooks": [
+          {
+            "title": "\"after all\" hook: codeceptjs.afterSuite",
+            "fullTitle": "Abrir la URL \"after all\" hook: codeceptjs.afterSuite",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.suiteTeardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "aed5a755-2b94-45b6-8053-9a2d82904c8c",
+            "isHook": true,
+            "skipped": false
+          },
+          {
+            "title": "\"after each\" hook: codeceptjs.after",
+            "fullTitle": "Abrir la URL \"after each\" hook: codeceptjs.after",
+            "timedOut": false,
+            "duration": 247,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "scenario.teardown(suite)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "fab14db4-8692-44ab-b630-ee25407a3567",
+            "isHook": true,
+            "skipped": false
+          }
+        ],
+        "tests": [
+          {
+            "title": "LogIN @LogIN",
+            "fullTitle": "Abrir la URL LogIN @LogIN",
+            "timedOut": false,
+            "duration": 23026,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(child.steps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "ea22ba32-0c67-4e28-bdc9-24f74979b86e",
+            "isHook": false,
+            "skipped": false
+          },
+          {
+            "title": "Validar Login @ValidacionLogIn",
+            "fullTitle": "Abrir la URL Validar Login @ValidacionLogIn",
+            "timedOut": false,
+            "duration": 0,
+            "pass": false,
+            "fail": false,
+            "pending": false,
+            "code": "runSteps(child.steps)",
+            "err": {},
+            "isRoot": false,
+            "uuid": "da59c0b7-1b81-41ff-920a-236f29a73519",
+            "isHook": false,
+            "skipped": true
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "ea22ba32-0c67-4e28-bdc9-24f74979b86e"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [
+          "da59c0b7-1b81-41ff-920a-236f29a73519"
+        ],
+        "duration": null,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 0
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 0
+  },
+  "copyrightYear": 2022
+}
